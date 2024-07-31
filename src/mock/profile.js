@@ -1,23 +1,27 @@
 export const SOCIAL_LINKS = [
   {
-    link: 'https://twitter.com/dhavalCode',       
+    link: 'https://twitter.com/dioverdm',       
     icon: 'akar-icons:twitter-fill',        
   },
   {
-    link: 'https://github.com/dhavalcode',
+    link: 'https://github.com/dioverdm',
     icon: 'akar-icons:github-fill',
   },
   {
-    link: 'https://linkedin.com/in/dhavalcode',
+    link: 'https://linkedin.com/in/dioverdm',
     icon: 'akar-icons:linkedin-fill',
+  },
+  {
+    link: 'https://instagram.com/dioverdm',
+    icon: 'akar-icons:instagram-fill',
   },
 ];
 
-export const HERO_TITLES = ['Dhaval Patel', 'Full-stack Engineer', 'AI Enthusiast'];
+export const HERO_TITLES = ['DioverDM', 'Ingeniero Informático', 'Entusiasta de la IA'];
 
 export const aboutParagraph =
-  'Highly motivated and enthusiastic Full Stack Engineer with experience in designing, developing and maintaining web applications using technologies such as Generative AI, Typescript, React, Next.js, Node.js, Python.';
+  'Ingeniero Full Stack altamente motivado y entusiasta con experiencia en diseño, desarrollo y mantenimiento de aplicaciones web utilizando tecnologías como Generative AI, Typescript, React, Next.js, Node.js.';
 
-export const contactEmail = 'works.dhaval@gmail.com';
+export const contactEmail = 'contact@dioverdm.com';
 
-export const documentTitle = 'Hello I am Dhaval Patel | Full Stack Engineer | AI Enthusiast'
+export const documentTitle = 'Hola soy DioverDM | Ingeniero Informático | Entusiasta de la IA'
