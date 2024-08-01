@@ -56,10 +56,6 @@ export const PROJECTS = [
       getSkillByLabel(FRONTEND_SKILLS, 'CSS'),
       getSkillByLabel(FRONTEND_SKILLS, 'Next.js'),
       getSkillByLabel(FRONTEND_SKILLS, 'Bootstrap'),
-      {
-        label: 'HTML',
-        icon: 'logos:html',
-      },
     ],
     description:
       'Este proyecto es mi portafolio actual y el mismo sitio web que estas visitando justo ahora',
