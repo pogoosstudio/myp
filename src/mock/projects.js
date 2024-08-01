@@ -2,23 +2,17 @@ import { BACKEND_SKILLS, FRONTEND_SKILLS } from './tech-skills';
 
 export const PROJECT_CATEGORY = {
   ALL: 'all',
-  FULL_STACK: 'full-stack',
   OPEN_SOURCE: 'open-source',
 };
 
 export const TABS = [
   {
-    label: 'All',
+    label: 'Todos',
     value: PROJECT_CATEGORY.ALL,
     icon: 'fluent:tab-desktop-20-regular',
   },
   {
-    label: 'Full Stack',
-    value: PROJECT_CATEGORY.FULL_STACK,
-    icon: 'bx:code-block',
-  },
-  {
-    label: 'Open Source',
+    label: 'Codigo Abierto',
     value: PROJECT_CATEGORY.OPEN_SOURCE,
     icon: 'fluent-mdl2:open-source',
   },
@@ -29,70 +23,47 @@ const getSkillByLabel = (skills, techLabel) => skills.find(({ label }) => label 
 export const PROJECTS = [
   {
     imgSrc: 'https://images2.imgbox.com/79/5f/S3hu6kJs_o.jpg',
-    title: 'Flipkart Clone - E-Commerce Project',
+    title: 'Pogo OS Website',
     techIcons: [
       getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
       getSkillByLabel(FRONTEND_SKILLS, 'CSS'),
-      getSkillByLabel(FRONTEND_SKILLS, 'React.js'),
-      getSkillByLabel(FRONTEND_SKILLS, 'Material UI (mui)'),
-      getSkillByLabel(FRONTEND_SKILLS, 'Redux'),
+      getSkillByLabel(FRONTEND_SKILLS, 'Express'),
       getSkillByLabel(BACKEND_SKILLS, 'Node.js'),
-      getSkillByLabel(BACKEND_SKILLS, 'Mongodb'),
     ],
     description:
-      'Flipkart Clone is done with top-notch features for the entrepreneur startups like Flipkart. It is build with React Js, Node Js.',
-    repoLink: 'https://github.com/dhavalCode/flipkart-clone',
-    sourceLink: 'https://flipkart-web.vercel.app/',
-    category: [PROJECT_CATEGORY.FULL_STACK, PROJECT_CATEGORY.OPEN_SOURCE],
+      'Este proyecto es el sitio web de mi bot de discord.',
+    sourceLink: 'https://www.pogoos.com/',
+    category: [PROJECT_CATEGORY.ALL],
   },
   {
     imgSrc: 'https://images2.imgbox.com/b5/bb/6f5g9QBE_o.png',
-    title: 'Developer Portfolio',
+    title: 'Pogo OS Discord Bot',
     techIcons: [
-      getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
-      getSkillByLabel(FRONTEND_SKILLS, 'CSS'),
-      getSkillByLabel(FRONTEND_SKILLS, 'Tailwind CSS'),
-      getSkillByLabel(FRONTEND_SKILLS, 'Next.js'),
+      getSkillByLabel(FRONTEND_SKILLS, 'Javascript'),
+      getSkillByLabel(FRONTEND_SKILLS, 'MongoDB'),
+      getSkillByLabel(FRONTEND_SKILLS, 'Node.js'),
     ],
     description:
-      'Simple and classic modern portfolio for who wants to present himself as a software developer. Portfolio build with highly customizable using Tailwind CSS, Next Js.',
-    repoLink: 'https://github.com/dhavalCode/dev-portfolio',
-    sourceLink: 'https://dhavalcode.com/',
-    category: [PROJECT_CATEGORY.OPEN_SOURCE],
+      'Este proyecto es un bot de discord con múltiples funciones desarrollado usando la biblioteca Discord.js v14',
+    sourceLink: 'https://www.pogoos.com/invite',
+    category: [PROJECT_CATEGORY.ALL],
   },
   {
     imgSrc: 'https://images2.imgbox.com/dd/a3/Fcx8cjEr_o.jpg',
-    title: 'Kitchen Store  - E-Commerce',
+    title: 'DioverDM - Mi Portafolio',
     techIcons: [
       getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
       getSkillByLabel(FRONTEND_SKILLS, 'CSS'),
-      getSkillByLabel(FRONTEND_SKILLS, 'Javascript'),
+      getSkillByLabel(FRONTEND_SKILLS, 'Next.js'),
       getSkillByLabel(FRONTEND_SKILLS, 'Bootstrap'),
       {
-        label: 'Java',
-        icon: 'logos:java',
+        label: 'HTML',
+        icon: 'logos:html',
       },
-      getSkillByLabel(BACKEND_SKILLS, 'MySQL'),
     ],
     description:
-      'The e-commerce to buy kitchen related items. College final year project base on Servlets and JSP (Java)',
-    repoLink: 'https://github.com/dhavalcode/ecommerce-java-project',
-    sourceLink: '',
-    category: [PROJECT_CATEGORY.FULL_STACK, PROJECT_CATEGORY.OPEN_SOURCE],
-  },
-
-  {
-    imgSrc: 'https://images2.imgbox.com/9d/d0/zdDVFtFN_o.png',
-    title: 'Netflix Clone - TMDB API Project',
-    techIcons: [
-      getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
-      getSkillByLabel(FRONTEND_SKILLS, 'CSS'),
-      getSkillByLabel(FRONTEND_SKILLS, 'React.js'),
-      getSkillByLabel(BACKEND_SKILLS, 'REST Api'),
-    ],
-    description: 'Netflix clone using react Js. Proving movies details using TMDB API.',
-    repoLink: 'https://github.com/dhavalcode/netflix-clone',
-    sourceLink: 'https://netflix-clone-by-dhaval.web.app/',
-    category: [PROJECT_CATEGORY.OPEN_SOURCE],
+      'Este proyecto es mi portafolio actual y el mismo sitio web que estas visitando justo ahora',
+    sourceLink: 'https://www.dioverdm.com',
+    category: [PROJECT_CATEGORY.ALL],
   },
 ];
